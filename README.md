@@ -58,6 +58,14 @@ npm run dev
 
 ---
 
+## ❗ Known Issues
+
+- 💻 On machines without a **dedicated GPU**, the lighting from the Sun may not render correctly.
+- 🔅 This can cause planets to appear darker than expected or not receive directional light properly.
+- 🧪 Recommended to test on devices with hardware-accelerated rendering (NVIDIA/AMD GPU or Apple M-series).
+
+---
+
 ## 👨‍💻 Author
 
 **Dhurv Taraviya**  
