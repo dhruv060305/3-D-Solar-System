@@ -1,12 +1,70 @@
-# React + Vite
+# 🌌 3D Solar System – Dhruv Taraviya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 3D simulation of the solar system built using React, Three.js, and @react-three/fiber. This project visualizes planetary motion with accurate textures, orbital tilt, and self-rotation, along with speed controls and a starry background.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Realistic planet textures and scaled sizes
+- Emissive textured Sun with point light source
+- Orbital tilts based on real planetary inclinations
+- Planetary revolution and self-rotation
+- Speed controls and reset functionality
+- Play and pause feature
+- Star background using drei's Stars
+- Responsive layout and interactive orbit controls
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/textures/         # Planet and sun textures
+├── components/
+│   ├── Planet.jsx           # Planet mesh and motion logic
+│   ├── Controls.jsx         # Speed sliders
+│   └── SolarSystem.jsx      # 3D canvas and system rendering
+├── App.jsx                  # Main app layout
+└── main.jsx                 # Entry point
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Three.js
+- @react-three/fiber
+- @react-three/drei
+- Vite
+
+---
+
+## 🔧 How to Run
+
+```bash
+# Clone the repository
+https://github.com/dhruv060305/3-D-Solar-System.git
+cd 3-D-Solar-System
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+**Dhurv Taraviya**  
+[GitHub](https://github.com/dhruv060305)
