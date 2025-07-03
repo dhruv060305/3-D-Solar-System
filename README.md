@@ -46,7 +46,7 @@ src/
 
 ```bash
 # Clone the repository
-https://github.com/dhruv060305/3-D-Solar-System.git
+git clone https://github.com/dhruv060305/3-D-Solar-System.git
 cd 3-D-Solar-System
 
 # Install dependencies
