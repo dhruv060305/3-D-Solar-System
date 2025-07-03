@@ -58,12 +58,6 @@ npm run dev
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 ## 👨‍💻 Author
 
 **Dhurv Taraviya**  
